@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://lfarrell.github.io/DeansProject/annotations/b0915c553726265d845ffda3b79789a4.json" ],
+  "otherContent" : [ "https://lfarrell.github.io/DeansProject/annotations/b0915c553726265d845ffda3b79789a4.json", "https://lfarrell.github.io/DeansProject/annotations/a1abe68f22cc3cea8562997836f60de4.json" ],
   "@id" : "https://lfarrell.github.io/DeansProject/annotations/collection.json",
   "label" : "All annotations loaded in lfarrell/DeansProject project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
