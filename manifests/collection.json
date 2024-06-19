@@ -1,0 +1,13 @@
+{
+  "id" : "https://lfarrell.github.io/DeansProject/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in lfarrell/DeansProject project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://lfarrell.github.io/DeansProject/manifests/manifest.json",
+    "label" : "Pictures of Sequoia Tunnel and Maddy"
+  } ]
+}
