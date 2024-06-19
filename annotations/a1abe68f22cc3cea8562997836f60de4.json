@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Dog tag",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Dog tag</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/111647297521621579829",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-06-19T19:43:38",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718826218297",
+    "dcterms:modified" : "2024-06-19T19:43:38",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://lfarrell.github.io/DeansProject/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1150,1430,311,314"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1150,1429.52941h155.35294v0h155.35294v157.23529v157.23529h-155.35294h-155.35294v-157.23529z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_20b3068d-36e8-45ae-a57d-843110bd2920\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://b20483b4-3dc2-401b-be54-4416b1c184c5"
+    } ]
+  } ],
+  "@id" : "https://lfarrell.github.io/DeansProject/annotations/a1abe68f22cc3cea8562997836f60de4.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
