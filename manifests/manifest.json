@@ -1,0 +1,86 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://lfarrell.github.io/DeansProject/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Pictures of Sequoia Tunnel and Maddy",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Pictures of Sequoia Tunnel and Maddy",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Pictures by me",
+  "sequences" : [ {
+    "@id" : "http://a66bfa6d-75c0-4949-863c-18fb4394a91a",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://d05b9e23-79f9-4588-a1db-c3e39bd76e36",
+      "@type" : "sc:Canvas",
+      "label" : "Tunnel through Sequoia Tree in Yosemite National Park",
+      "height" : 2448,
+      "width" : 3264,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ce0cf50d-ed6f-4091-9975-59ff90999d56",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/sequoia_tunnel/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/sequoia_tunnel",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2448,
+          "width" : 3264
+        },
+        "on" : "http://d05b9e23-79f9-4588-a1db-c3e39bd76e36"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b20483b4-3dc2-401b-be54-4416b1c184c5",
+      "@type" : "sc:Canvas",
+      "label" : "Picture of Maddy",
+      "height" : 2048,
+      "width" : 1536,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c77058cf-c574-46d2-acc8-a6cb37ad2177",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/pooch_max/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/pooch_max",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2048,
+          "width" : 1536
+        },
+        "on" : "http://b20483b4-3dc2-401b-be54-4416b1c184c5"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "My Images",
+    "canvases" : [ "http://d05b9e23-79f9-4588-a1db-c3e39bd76e36", "http://b20483b4-3dc2-401b-be54-4416b1c184c5" ]
+  } ]
+}
