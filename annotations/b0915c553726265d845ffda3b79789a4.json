@@ -1,0 +1,47 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "tunnel",
+      "@type" : "oa:Tag",
+      "chars" : "tunnel"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "tree",
+      "@type" : "oa:Tag",
+      "chars" : "tree"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Tunnel through a tree",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Tunnel through a tree</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1240244679/111647297521621579829",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-06-19T19:41:31",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1718826091912",
+    "dcterms:modified" : "2024-06-19T19:41:31",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://lfarrell.github.io/DeansProject/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1833,807,1302,1057"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1832.5,807h651v0h651v528.5v528.5h-651h-651v-528.5z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_ab195250-e166-4b27-bb83-63f1dc78ea07\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://d05b9e23-79f9-4588-a1db-c3e39bd76e36"
+    } ]
+  } ],
+  "@id" : "https://lfarrell.github.io/DeansProject/annotations/b0915c553726265d845ffda3b79789a4.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
