@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://lfarrell.github.io/DeansProject/manifests/manifest.json",
     "label" : "Pictures of Sequoia Tunnel and Maddy"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://lfarrell.github.io/DeansProject/manifests/marne.json",
+    "label" : "Battle of the Marne"
   } ]
 }
