@@ -1,0 +1,117 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://lfarrell.github.io/DeansProject/manifests/marne.json",
+  "@type" : "sc:Manifest",
+  "label" : "Battle of the Marne",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Pictures from the Battle of the Marne",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "University of North Carolina Libraries, Digital Collections Repository - Part of Bowman Gray Collection of First World War Photograph Albums and Scrapbooks (12024)",
+  "sequences" : [ {
+    "@id" : "http://6ec93beb-75f5-46b5-a338-5d09dba0a776",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3fffb64d-8f4b-4374-b4e0-291c75dfe7c8",
+      "@type" : "sc:Canvas",
+      "label" : "Artillery by the side of the road",
+      "height" : 8259,
+      "width" : 10867,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://05ddf83f-8fc6-42c2-b42b-98eea70548c1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dcr.lib.unc.edu/services/api/iiif/v2/2c9d42a3-e673-4edc-9a82-96d9420feabc/jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dcr.lib.unc.edu/services/api/iiif/v2/2c9d42a3-e673-4edc-9a82-96d9420feabc/jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "tif", "gif" ],
+              "qualities" : [ "default", "color", "bitonal", "gray" ],
+              "maxArea" : 10000000,
+              "supports" : [ "regionByPx", "jsonldMediaType", "sizeByWhListed", "regionSquare", "sizeByPct", "rotationArbitrary", "mirroring", "canonicalLinkHeader", "sizeByW", "sizeByWh", "sizeByForcedWh", "profileLinkHeader", "sizeByDistortedWh", "sizeByConfinedWh", "baseUriRedirect", "rotationBy90s", "cors", "sizeByH", "regionByPct" ]
+            } ]
+          },
+          "height" : 8259,
+          "width" : 10867
+        },
+        "on" : "http://3fffb64d-8f4b-4374-b4e0-291c75dfe7c8"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://d92e3aed-c010-420b-ad3b-4cf0f68a1e4e",
+      "@type" : "sc:Canvas",
+      "label" : "Soldiers in a trench",
+      "height" : 8269,
+      "width" : 10804,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://569d8421-6af3-405f-a03d-693f3f005831",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dcr.lib.unc.edu/services/api/iiif/v2/2617a5f1-dc05-4e89-8f4f-e2f1b6cbdad0/jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dcr.lib.unc.edu/services/api/iiif/v2/2617a5f1-dc05-4e89-8f4f-e2f1b6cbdad0/jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "tif", "gif" ],
+              "qualities" : [ "default", "color", "bitonal", "gray" ],
+              "maxArea" : 10000000,
+              "supports" : [ "sizeByConfinedWh", "profileLinkHeader", "sizeByW", "rotationArbitrary", "sizeByForcedWh", "regionByPx", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "regionByPct", "sizeByWh", "baseUriRedirect", "sizeByPct", "sizeByH", "jsonldMediaType", "canonicalLinkHeader", "rotationBy90s", "mirroring" ]
+            } ]
+          },
+          "height" : 8269,
+          "width" : 10804
+        },
+        "on" : "http://d92e3aed-c010-420b-ad3b-4cf0f68a1e4e"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://2ef89bea-e6ad-4c72-bd21-f87e3bcd35f7",
+      "@type" : "sc:Canvas",
+      "label" : "Soldiers in a Cave",
+      "height" : 8266,
+      "width" : 10828,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://88e8021d-7084-4d56-907b-be618e05dc33",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dcr.lib.unc.edu/services/api/iiif/v2/38a86d16-5ed3-4e6b-a69f-63f7f4cb62a7/jp2/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dcr.lib.unc.edu/services/api/iiif/v2/38a86d16-5ed3-4e6b-a69f-63f7f4cb62a7/jp2",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "tif", "gif" ],
+              "qualities" : [ "default", "color", "bitonal", "gray" ],
+              "maxArea" : 10000000,
+              "supports" : [ "sizeByWh", "sizeByDistortedWh", "sizeByConfinedWh", "profileLinkHeader", "cors", "canonicalLinkHeader", "sizeByH", "baseUriRedirect", "jsonldMediaType", "sizeByPct", "sizeByWhListed", "regionSquare", "sizeByForcedWh", "rotationArbitrary", "regionByPx", "sizeByW", "rotationBy90s", "regionByPct", "mirroring" ]
+            } ]
+          },
+          "height" : 8266,
+          "width" : 10828
+        },
+        "on" : "http://2ef89bea-e6ad-4c72-bd21-f87e3bcd35f7"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "viewingDirection" : "left-to-right"
+}
